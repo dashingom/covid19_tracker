@@ -1,0 +1,12 @@
+@import "_cards";
+
+.image {
+  width: 370px;
+  margin-top: 25px;
+}
+
+@media only screen and (max-width: 770px) {
+  .image {
+    width: 100%;
+  }
+}
